@@ -1,0 +1,33 @@
+{
+  "name": "san-cli-test",
+  "version": "0.0.1",
+  "description": "mocha unit testing plugin for san-cli",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Glen1021/san-cli-test.git"
+  },
+  "keywords": [
+    "sab",
+    "san-cli",
+    "mocha",
+    "webpack",
+    "unit-testing"
+  ],
+  "author": "Glen1021",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Glen1021/san-cli-plugin-unit-mocha/issues"
+  },
+  "dependencies": {
+      "san-test-utils": "^0.1.3",
+      "expect": "^27.0.6",
+      "jsdom": "^15.2.1",
+      "jsdom-global": "^3.0.2",
+      "mocha": "8.4.0",
+      "mochapack": "2.1.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
