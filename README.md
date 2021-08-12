@@ -1,4 +1,4 @@
-# san-cli-plugin-unit-mocha
+# san-cli-test
 
 > unit-mocha plugin for san-cli@4.0.0
 

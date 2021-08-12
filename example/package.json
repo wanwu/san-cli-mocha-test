@@ -1,0 +1,32 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A San project",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development san serve --config san.config.js",
+    "build": "cross-env NODE_ENV=production san build --config san.config.js",
+    "test": "cross-env NODE_ENV=test san test"
+  },
+  "keywords": [
+    "San",
+    "San CLI"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-plugin-import": "^1.13.0",
+    "cross-env": "^7.0.2",
+    "less": "^3.11.1",
+    "less-loader": "^5.0.0",
+    "postcss-import": "^14.0.2",
+    "postcss-url": "^10.1.3",
+    "san-cli": "^4.0.0"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "san": "^3.10.0",
+    "san-cli-mocha-test": "^0.0.2",
+    "san-cli-test": "^0.0.2"
+  }
+}
