@@ -26,7 +26,6 @@
   "dependencies": {
     "axios": "^0.21.1",
     "san": "^3.10.0",
-    "san-cli-mocha-test": "^0.0.2",
     "san-cli-test": "^0.0.2"
   }
 }

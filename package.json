@@ -1,6 +1,6 @@
 {
   "name": "san-cli-test",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "mocha unit testing plugin for san-cli",
   "main": "index.js",
   "repository": {
