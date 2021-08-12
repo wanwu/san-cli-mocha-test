@@ -1,17 +1,27 @@
-# san-cli-test
+# san-cli-mocha-test
 
-> unit-mocha plugin for san-cli@4.0.0
+ ##### 介绍
+san-cli-mocha-test是一个专门为san-cli 4.0项目打造的测试插件
 
-## Injected Commands
+ ##### 安装
+```
+npm install san-cli-mocha-test
+```
+ ##### 使用
+```
+{
+  "scripts": {
+    "test": "san test"
+  }
+}
+```
 
-- **`san test:unit`**
-
-  Run unit tests with [mochapack](https://github.com/sysgears/mochapack) + [chai](http://chaijs.com/).
+  基于[mochapack](https://github.com/sysgears/mochapack) + [expect](https://github.com/facebook/jest#readme)运行单元测试
 
   **Note the tests are run inside Node.js with browser environment simulated with JSDOM.**
 
   ```
-  Usage: san test:unit [options] [...files]
+  Usage: san test [options] [...files]
 
   Options:
 
@@ -22,9 +32,8 @@
     --bail, -b    bail after first test failure
     --require, -r require the given module before running tests
     --include     include the given module into test bundle
-    --inspect-brk Enable inspector to debug the tests
   ```
 
-  Default files matches are: any files in `tests/unit` that end in `.spec.js`.
+  默认匹配文件是：任何在`test/`文件目录下，并且以`.spec.js`结尾的文件
 
-  All [mochapack command line options](https://sysgears.github.io/mochapack/docs/installation/cli-usage.html) are also supported.
+  所有的 [mochapack命令行参数](https://sysgears.github.io/mochapack/docs/installation/cli-usage.html) are also supported.
