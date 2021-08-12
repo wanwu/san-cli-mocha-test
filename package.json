@@ -1,11 +1,11 @@
 {
   "name": "san-cli-test",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "mocha unit testing plugin for san-cli",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git@github.com:Glen1021/san-cli-test.git"
+    "url": "https://github.com/wanwu/san-cli-mocha-test"
   },
   "keywords": [
     "san",

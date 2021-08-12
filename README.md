@@ -1,11 +1,11 @@
-# san-cli-mocha-test
+# san-cli-test
 
  ##### 介绍
-san-cli-mocha-test是一个专门为san-cli 4.0项目打造的测试插件
+san-cli-test是一个专门为san-cli 4.0项目打造的测试插件
 
  ##### 安装
 ```
-npm install san-cli-mocha-test
+npm install san-cli-test
 ```
  ##### 使用
 ```
