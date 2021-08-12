@@ -18,8 +18,6 @@ npm install san-cli-test
 
   基于[mochapack](https://github.com/sysgears/mochapack) + [expect](https://github.com/facebook/jest#readme)运行单元测试
 
-  **Note the tests are run inside Node.js with browser environment simulated with JSDOM.**
-
   ```
   Usage: san test [options] [...files]
 
@@ -36,4 +34,4 @@ npm install san-cli-test
 
   默认匹配文件是：任何在`test/`文件目录下，并且以`.spec.js`结尾的文件
 
-  所有的 [mochapack命令行参数](https://sysgears.github.io/mochapack/docs/installation/cli-usage.html) are also supported.
+  所有的 [mochapack命令行参数](https://sysgears.github.io/mochapack/docs/installation/cli-usage.html)也都是支持的。
