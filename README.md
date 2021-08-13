@@ -1,13 +1,13 @@
 # san-cli-test
 
- ##### 介绍
-san-cli-test是一个专门为san-cli 4.0项目打造的测试插件
+ ### 介绍
+san-cli-test是面向san-cli项目提供的一个mocha单元测试插件，它赋予了san-cli基于mocha进行单测的能力，解决了项目中.san文件无法进行单测的问题。
 
- ##### 安装
+### 安装
 ```
 npm install san-cli-test
 ```
- ##### 使用
+### 使用
 ```
 {
   "scripts": {
