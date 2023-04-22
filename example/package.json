@@ -24,7 +24,7 @@
     "san-cli": "^4.0.0"
   },
   "dependencies": {
-    "axios": "^0.21.1",
+    "axios": "^0.21.2",
     "san": "^3.10.0",
     "san-cli-test": "*"
   }
